@@ -18,7 +18,7 @@
 
 
 	<div class="container">
-		<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Salir</button>
+		<button id="logout" onclick="cerrarSesion();" class="glyphicon glyphicon-log-out btn btn-danger">Salir</button>
 
 		<center>
 			<h1 class="header">
@@ -34,15 +34,15 @@
 				<input type="text" id="room_name" class="form-control" placeholder="#Nombre de la sala">
 			</div>
 
-			<button onclick="addRoom();" class="btn btn-success">#Añadir sala</button>
+			<button onclick="agregarSala();" class="btn btn-success">#Añadir sala</button>
 
 			<h3 class="color_white">#SALASDETENDENCIA</h3>
 
-			<div id="output"></div>
+			<div id="listaGrupos"></div>
 
 		</center>
 	</div>
-	<script src="grupos.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>
